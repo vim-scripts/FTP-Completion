@@ -1,0 +1,15 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=963
+
+Vim can edit file on ftp server like following.
+:e ftp://ftp.vim.org/pub/vim/patches/6.2.001
+
+This script help the user typing of path.
+If you type ...
+:e ftp://ftp.vim.org/pub/vim/patches/
+and type <c-g><tab>
+:e ftp://ftp.vim.org/pub/vim/patches/6.2.001
+and type <c-g><c-n>
+:e ftp://ftp.vim.org/pub/vim/patches/6.2.002
+and type <c-g><c-p>
+:e ftp://ftp.vim.org/pub/vim/patches/6.2.001
+
